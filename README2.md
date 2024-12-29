@@ -14,17 +14,17 @@ virtualenv ml_package2
 source ml_package1/bin/activate
 
 # windows 
-ml_package1\Scripts\activate
-ml_package2\Scripts\activate
+* ml_package1\Scripts\activate
+* ml_package2\Scripts\activate
 
 # change folder location where requirements.txt stored
-D:
-cd D:\Packaging-ML-Model\packaging_ml_model
+* D:
+* cd D:\Packaging-ML-Model\packaging_ml_model
 
 # install requiremnts.txt
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
-python training pipeline.py
+* python training pipeline.py
 
 # creating distribution package
 python setup.py sdist bdist_wheel
