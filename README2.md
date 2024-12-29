@@ -40,7 +40,7 @@ python setup.py sdist bdist_wheel
 
 # using distribution package from GIT
 * ml_package1\Scripts\activate
-* pip install git+https://github.com/bipulshahi/loanapp.git
+* pip install git+https://github.com/bipulshahi/loanapp.git](https://github.com/bipulshahi/testMyloanapp.git
 
 * python
 * import Myloanapp
